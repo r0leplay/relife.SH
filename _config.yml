@@ -1,0 +1,1 @@
+exclude: ['*.md', 'CNAME', '.customPath', '*.code-workspace', 'Gemfile', 'Gemfile.lock', '.bundle/*.*', '.jekyll-cache/*.*', 'true']
