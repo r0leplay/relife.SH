@@ -32,7 +32,7 @@
 .kay-bgNight {
     background-image: url("../img/bg/night.gif") !important;
 }
-@import url('shoko/bootstrap.min.css');
-@import url('shoko/bootstrap-theme.min.css');
-@import url('shoko/light-box.css');
-@import url('shoko/templatemo-main.css');
+@import url('/assets/css/shoko/bootstrap.min.css');
+@import url('/assets/css/shoko/bootstrap-theme.min.css');
+@import url('/assets/css/shoko/light-box.css');
+@import url('/assets/css/shoko/templatemo-main.css');
