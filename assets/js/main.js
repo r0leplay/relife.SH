@@ -6,3 +6,4 @@ jQuery(document).ready(function($) {
             $(".seq-preloader").fadeOut(); // will first fade out the loading animation
             $(".sequence").delay(500).fadeOut("slow"); // will fade out the white DIV that covers the website.
         })
+}
