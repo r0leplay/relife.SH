@@ -1,0 +1,34 @@
+---
+layout: kay-templates
+description: Galerie des photographies de Shoko Hosokawa publiée & réunis sur une même page.
+permalink: /photos
+---
+<div class="slides">
+    <div class="slide">
+        <div class="content fourth-content">
+            <div class="container-fluid">
+                <div class="row">
+                {% assign sorted = site.static_files | sort: 'date' | reverse %}{% for image in sorted %}{% if image.path contains '写真撮影' %}
+                    <div class="col-md-4 col-sm-6">
+                        <div class="item">
+                            <div class="thumb">
+                                <a href="{{ site.imgchar }}/{{ image.name }}" data-lightbox="image-1">
+                                    <div class="hover-effect">
+                                        <div class="hover-content">
+                                            <h2>N°{{ image.name }}</h2>
+                                            <p>par 翔子 細川 (Shoko Hosokowa)</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="image">
+                                    <img src="{{ site.imgchar }}/{{ image.name }}" alt="{{ site.imgchar }}/{{ image.name }}" draggable="false">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}{% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

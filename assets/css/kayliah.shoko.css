@@ -1,0 +1,38 @@
+.kay-MadeInKayliah {
+    position: fixed !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    z-index: 2147483647 !important;
+    top: auto !important;
+    right: 12px !important;
+    bottom: 12px !important;
+    left: auto !important;
+    color: #ffffff !important;
+    background-color: rgb(0 0 0 / 68%) !important;
+    border-radius: 3px !important;
+    padding: 6px 8px 6px 6px !important;
+    font-size: 12px !important;
+    opacity: 1 !important;
+    line-height: 14px !important;
+    text-decoration: none !important;
+    transform: none !important;
+    margin: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    overflow: visible !important;
+    white-space: nowrap;
+    box-shadow: 0 0 0 1px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
+}
+.kay-bgDay {
+    background-image: url("../img/bg/day.gif") !important;
+}
+.kay-bgMiddle {
+    background-image: url("../img/bg/middle.gif") !important;
+}
+.kay-bgNight {
+    background-image: url("../img/bg/night.gif") !important;
+}
+@import url('shoko/bootstrap.min.css');
+@import url('shoko/bootstrap-theme.min.css');
+@import url('shoko/light-box.css');
+@import url('shoko/templatemo-main.css');
